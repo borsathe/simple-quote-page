@@ -1,25 +1,28 @@
-* {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url('assets/freedom.jpg') no-repeat center;
+    background-size: cover;
+    line-height: 1.4;
+    display: block;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
 }
 
-blockquote {
+.quote {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 26px;
+    padding: 30px;
+    text-transform: uppercase;
 }
 
-.profile-card {
-    background-image: image('assets/freedom.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+.author {
+    font-style: italic;
 }
 
 .head {
@@ -31,6 +34,13 @@ body {
 p {
     padding: 40px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
     font-size: 26px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
 }
